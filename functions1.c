@@ -30,7 +30,7 @@ int print_unsigned(va_list types, char buffer[],
 		num /= 10;
 	}
 
-	i++;
+	k++;
 
 	return (write_unsgnd(0, k, buffer, flags, width, precision, size));
 }

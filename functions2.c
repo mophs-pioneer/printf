@@ -84,7 +84,7 @@ int print_non_printable(va_list types, char buffer[],
 		else
 			offset += append_hexa_code(str[k], buffer, k + offset);
 
-		i++;
+		k++;
 	}
 
 	buffer[k + offset] = '\0';
