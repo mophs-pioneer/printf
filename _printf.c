@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 
 	va_start(list, format);
 
-	for (k = 0; format && format[k] != '\0'; i++)
+	for (k = 0; format && format[k] != '\0'; k++)
 	{
 		if (format[k] != '%')
 		{
